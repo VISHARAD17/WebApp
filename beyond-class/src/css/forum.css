@@ -1,122 +1,193 @@
-body{
+.main-content {
     background-color: #253439;
 }
 
-/* Color CSS */
-.grey {
-    background-color:  #899597;
-   
-}
-.black {
-    background-color:#253439 ;
-}
-
-/* Navbar */
-.navbar {
-    background-color: #FFFFFF;
-    ;
+.row-content-main {
+    background-color: #7C898B;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 112px;
+    margin-top: 30px;
 }
 
-/* Page content div */
-.page-content-box {
-    position: absolute;
-    top: 20%;
-    left: 13%;
-    width: 80%;
-    height: 78%;
+.row-main-div {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.profile {
-    position: absolute;
-    top: 2%;
-    left: 3%;
-    width: 67%;
-    padding: 0.5% 0% 0% 1.5%;
+.col-class-1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #253439;
+    border: none;
+    border-radius: 10px;
 }
 
-
-.profile-pic-img {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    width: 13%;
-    height: 14%;
+.profile-img img {
+    width: 100px;
+    height: 100px;
 }
 
-.message-btn {
-    position: absolute;
-    top: 43%;
-    left: 8%;
-    background-color:#253439 ;
-    width: 13.5%;
+.profile-div {
+   justify-content: center;
+   margin-left: 25px;
 }
 
-.user-desc {
-    position: absolute;
-    top: 13%;
-    left: 25%;
-    padding: 1% 2%;
+.btn-div {
+    margin-top: 15px;
 }
 
-.follow-btn {
-    position: absolute;
-    top: 5%;
-    right: 2%;
-    width: 25%;
-    height: 20%;
-    background-color:#253439 ;
+.btn-class {
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 7px;
+    color: white;
+    background-color: #253439;
+    box-shadow: 0px 4px 1px rgba(104, 52, 4, 0.87);
 }
 
-.insta-img {
-    margin: 0 4% 0 0;
-}
-.fb-img {
-    margin: 0 2% 0 2%;
-}
-.fb-img-c {
-    margin: 0 0 0 2%;
+.btn-class-1 {
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 7px;
+    color: white;
+    background-color: #7C898B;
+    box-shadow: 0px 4px 1px rgba(104, 52, 4, 0.87);
 }
 
-/* Followers div */
-.followers-div {
-    position: absolute;
-    top: 13%;
-    right: 2%;
-    width: 25%;
-    height: 30%;
+.col-class-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.user-content {
+    background-color: #253439;
+    border: none;
+    border-radius: 10px;
+}
+
+.user-div {
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.left-top-part {
+    margin-top: 10px;
+}
+
+.left-top-part span{
+    text-align: left;
+    margin-right: 85px;
+}
+
+.left-bottom-part {
+    margin-top: 10px;
+}
+.title-para {
+    margin-top: 20px;
+}
+
+.user-text {
+    margin-top: 5px;
+}
+
+.user-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.user-icons img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.post-row {
+    margin-top: 20px;
+}
+
+.general-post {
+    color: white;
+    background-color: #253439;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.area {
+    background-color: #455b61;
+    margin-top: 10px;
+    height: 250px;
+}
+
+.bottom-box {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+}
+
+.bottom-box p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bottom-box p i {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.top-box {
+    width: 200px;
+    color: white;
+    background-color: #253439;
     text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 10px;
 }
 
-                     /* Community-div */
-                     .community-div {
-                        position: absolute;
-                        top: 45%;
-                        right: 2%;
-                        width: 25%;
-                        height: 55%;
-                    }                     
-                    
-                    .community-count {
-                        margin: 0% 0%;
-                        padding: 2% 8%;
-                    }
-                    
-                    .c-c-head {
-                        margin: 3% 0%;
-                        padding: 2% 2%;
-                        text-align: center;
-                    }
-
-/* Questions-Div */
-.questions-div {
-    position: absolute;
-    top: 55%;
-    left: 13%;
+.top-box p span {
+    margin-left: 30px;
+    padding-right: 10px;
 }
 
-.question-h4 {
-    display: inline-block;
+.top-box-1 {
+    width: 200px;
+    color: white;
+    background-color: #253439;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 10px;
 }
-.dropdown-toggle {
-    display: inline-block;
+
+.communities {
+    width: 200px;
+    margin-left: 40px;
+    padding: 10px;
+    background-color: #253439;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+.top-box ul li {
+    list-style-position: outside;
 }

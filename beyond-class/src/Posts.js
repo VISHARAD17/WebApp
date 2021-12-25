@@ -8,29 +8,31 @@ import {Container} from 'react-bootstrap';
 import answerImg from './images/answer.png';
 import popularPostImg from './images/popular-post.png';
 import notificationImg from './images/notifications.png';
-import beyondClassImg from './images/beyond_class.png';
 import profileImg from './images/profile.png'
 import photoImg from './images/photo.png';
 import videoImg from './images/video.png';
-import textImg from './images/text.png'
-import createProfileImg from './images/createProfile.png'
+import textImg from './images/text.png';
+import beyondclassImg from './images/beyond_class.png';
 
 const Posts = () => {
     return ( 
         <div className="posts-content">
-            <Navbar className='navbar-class'>
-                <Container>
-                    <Navbar.Brand href="#home"><img src={beyondClassImg} alt="brand-logo"/></Navbar.Brand>
-                    <Nav className="me-auto">
-                    <input className='input-class' placeholder='Search'/>
-                    <Nav.Link className='nav-item-class' href="#home"><img className='img-class' src={popularPostImg} alt="popular-post-img"/>Popular Post</Nav.Link>
-                    <Nav.Link className='nav-item-class' href="#features"><img src={answerImg} alt="Answer-img"/>Answer</Nav.Link>
-                    <Nav.Link className='nav-item-class' href="#pricing"><img src={popularPostImg} alt="popular-post-img"/>Communities</Nav.Link>
-                    <Nav.Link className='nav-item-class' href="#pricing"><img src={notificationImg} alt="Notifiactions-img"/>Notifications</Nav.Link>
-                    <Nav.Link className='nav-item-class' href="#pricing"><img src={popularPostImg} alt="popular-post-img"/>My Profile</Nav.Link>
-                    </Nav>
-                </Container>
-            </Navbar>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <a className="navbar-brand" href="#"><img src={beyondclassImg} alt="brand-logo"/></a>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav">
+                        <input className="" type="search" placeholder="Search" />
+                        <li className="nav-item"><a className="nav-link active" href=""><img src={popularPostImg} alt="popular-post-img"/> Popular Post</a></li>
+                        <li className="nav-item"><a className="nav-link" href=""><img src={answerImg} alt="Answer-img"/> Answer</a></li>
+                        <li className="nav-item"><a className="nav-link" href=""><img src={popularPostImg} alt="popular-post-img"/><i className="fas fa-users"></i> Communities</a></li>
+                        <li className="nav-item"><a className="nav-link" href=""><img src={notificationImg} alt="Notifiactions-img"/> Notifications</a></li>
+                        <li className="nav-item"><a className="nav-link" href=""><img src={popularPostImg} alt="popular-post-img"/><i className="far fa-user-circle"></i> My Profile</a></li>
+                    </ul>
+                </div>
+            </nav>
             <Container fluid className='main-content'>
                 <div className='main-row-content d-flex justify-content-center'>
                     <Row className='main-row-class'>
